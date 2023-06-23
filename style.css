@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy&display=swap');
 body{
-    /* background-color: #CCCCFF; */
+    
     background-color: cyan;
     display: flex;
     flex-direction: column;
@@ -16,12 +16,7 @@ h1{
 }
 
 .main1{
-    /* height: 70vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    /* justify-content: center; */
-    /* align-items: center; */
+    
     font-size: 1.5rem;
     font-weight: 545;
     font-family: 'Poltawski Nowy', serif;
@@ -33,11 +28,7 @@ h1{
 }
 
 .style1 {
-    /* -webkit-appearance: none; */
-    /* -moz-appearance: none;
-    appearance: none; */
-    /* width: 5rem;
-    height: 5rem; */
+  
     background-color: transparent;
     border: none;
     cursor: pointer;
