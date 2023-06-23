@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Placeholder Image Path Generator</h1>
+
+    <div class="main1">
+
+   
+    <div class="parent">
+        <label for="selectImage">Image Size :</label>
+        <select  name="" id="selectImage" >
+            <option value="none" >Select the option</option>
+            <option value="150x150">Small(150x50)</option>
+            <option value="200x200">Medium Square(200x200)</option>
+            <option value="350x150">Medium(350x150)</option>
+            <option value="400x400">Large Square(400x400)</option>
+            <option value="650x350">Large(650x350)</option>
+            <option value="800x600">X-Large(800x600)</option>
+            <option value="1080x720">Full HD(1080x720)</option>
+        </select>
+    </div>
+
+    <div class="parent">
+        <label for="TextOnImage">Text On Image :</label>
+        <input type="text" placeholder="Type Text Here">
+    </div>
+
+    <div class="parent">
+        <label for="backgroundColor">Background Color :</label>
+        <input type="color" name="" value="#FFFDD0" id="backgroundColor" class="style1">
+    </div>
+
+    <div class="parent">
+        <label for="TextColor">Text Color :</label>
+        <input type="color" name="" value="#FF00FF" id="TextColor"  class="style1">
+    </div>
+
+    <div class="container">
+        <img src="" alt="" srcset="">
+        <br>
+        <label for="url_path"></label>
+        <textarea name="" id="" cols="50" rows="2" placeholder="The Link Will Be Available Here"></textarea>
+    </div>
+
+</div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
